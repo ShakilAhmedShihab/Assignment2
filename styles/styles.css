@@ -10,6 +10,7 @@
 header {
     height: 850px;
     margin: 30px 170px 0 170px;
+    
 }
 
 nav {
@@ -128,14 +129,18 @@ nav {
     border: none;
 }
 
-.find-now {
+.banner-button {
     width: 174px;
     height: 52px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .input-field {
@@ -151,11 +156,107 @@ nav {
 
 }
 
+/* Main section start */
+main{
+    margin: 130px 170px 0 170px;
+}
+.tour{
+    display: flex;
+    gap: 53px;
+}
+.tour-heading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.tour-description > p{
+    padding: 24px 0;
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+}
+.tour-description >  li{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+.destination{
+    margin-top: 100px;
+}
+.destination-heading{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.row1 > img {
+    margin-top: 50px;
+    width: 800px;
+}
+.row2{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+/* .row2 > img{
+    width: 500px;
+    height: 400px;
+} */
+.row2-1{
+    width: 550px;
+}
+.row2-2{
+    width: 600px;
+}
+.row2-3{
+    width: 450px ;
+}
+.row3{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.row3-1{
+    width: 700px;
+}
+.row3-2{
+    width: 850px;
+}
+/* .row3{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+} */
+/* .row3 > img{
+    width: 900px ;
+} */
+
 /* Header for mobile */
 
 @media screen and (max-width:600px) {
     header {
         margin: 5px 5px 0 5px;
+        height: 681px;
     }
 
     nav {
@@ -211,6 +312,56 @@ nav {
         flex-direction: column;
         position: relative;
         left: 64px;
+    }
+
+    .banner-button {
+        width: 191px;
+        height: 52px;
+    }
+    main{
+        margin: 5px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-heading{
+        font-size: 30px;
+    }
+    .tour-description{
+        padding: 40px;
+    }
+    .tour-image{
+        display: flex;
+        justify-content: center;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .row1 > img{
+        width: auto;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row2 > .row2-1, .row2-2 , .row2-3{
+        width: auto;
+    }
+    .row2-1, .row2-2 , .row2-3{
+        height: 350px;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .row3-1, .row3-2{
+        width: auto;
+
+    }
+    .row3-1, .row3-2{
+        height: 350px;
+
+    }
+    .row1 > img{
+        margin-top: -4px;
     }
 
 }
