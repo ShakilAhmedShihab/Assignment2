@@ -10,7 +10,7 @@
 header {
     height: 850px;
     margin: 30px 170px 0 170px;
-    
+
 }
 
 nav {
@@ -157,89 +157,113 @@ nav {
 }
 
 /* Main section start */
-main{
+main {
     margin: 130px 170px 0 170px;
 }
-.tour{
+
+.tour {
     display: flex;
     gap: 53px;
 }
-.tour-heading{
+
+.tour-heading {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 
 }
-.tour-description > p{
+
+.destination>p {
     padding: 24px 0;
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
 }
-.tour-description >  li{
+
+.tour-description>p {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+
+}
+
+
+.tour-description>li {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
     padding-bottom: 10px;
 
 }
-.destination{
+
+.destination {
     margin-top: 100px;
 }
-.destination-heading{
+
+.destination-heading {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
 
 }
-.destination-description{
+
+.destination-description {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
     text-align: center;
 
 
 }
-.row1{
+
+.row1 {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-.row1 > img {
+
+.row1>img {
     margin-top: 50px;
     width: 800px;
 }
-.row2{
+
+.row2 {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
 
 }
+
 /* .row2 > img{
     width: 500px;
     height: 400px;
 } */
-.row2-1{
+.row2-1 {
     width: 550px;
 }
-.row2-2{
+
+.row2-2 {
     width: 600px;
 }
-.row2-3{
-    width: 450px ;
+
+.row2-3 {
+    width: 450px;
 }
-.row3{
+
+.row3 {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
 
 }
-.row3-1{
+
+.row3-1 {
     width: 700px;
 }
-.row3-2{
+
+.row3-2 {
     width: 850px;
 }
+
 /* .row3{
     margin-top: 24px;
     display: flex;
@@ -252,6 +276,222 @@ main{
 } */
 
 /* Header for mobile */
+
+/* Choose us section */
+.choose-us {
+    margin-top: 150px;
+}
+
+.choose-us-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.choose-us>p {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.box-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.box1 {
+    padding: 30px;
+    width: 600px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.box-heading {
+    color: #131318;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.box-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.box2 {
+    padding: 30px;
+    width: 600px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.box-container2 {
+    padding: 30px;
+    width: 600px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin: 50px auto;
+
+}
+
+/* Deal section */
+
+.discount {
+    margin-top: 150px;
+}
+
+.discount>p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    text-align: center;
+}
+
+.discount-banner1 {
+    margin-top: 50px;
+    max-width: auto;
+    height: 700px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/Group\ 39.png");
+
+}
+
+.discount-box1 {
+    width: 600px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 800px;
+    top: 170px;
+    padding: 50px;
+
+}
+
+.discount-box2 {
+    width: 600px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    left: 100px;
+    top: 170px;
+    padding: 50px;
+
+}
+
+.discount-banner2 {
+    max-width: auto;
+    height: 700px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Images/Group\ 40.png");
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.discount-box-heading {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.discount-box-descriptinon {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discount-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.discount-nav {
+    display: flex;
+    gap: 90px;
+}
+
+.clock {
+    display: flex;
+    gap: 5px;
+}
+
+.member {
+    display: flex;
+    gap: 5px;
+}
+
+.country {
+    display: flex;
+    gap: 5px;
+
+}
+
+.discount>.banner-button {
+    margin: 20px auto;
+}
+
+/* Discount end */
+.video {
+    margin-top: 150px;
+
+}
+
+
+.video-description>li {
+    color: #131318;
+    font-weight: 700;
+    padding: 10px;
+
+
+}
+
+.video-description>.banner-button {
+    margin-top: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main-main-video {
+    /* width="500" height="auto" */
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.video1-description {
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 @media screen and (max-width:600px) {
     header {
@@ -318,50 +558,105 @@ main{
         width: 191px;
         height: 52px;
     }
-    main{
+
+    main {
         margin: 5px;
     }
-    .tour{
+
+    .tour {
         flex-direction: column;
     }
-    .tour-heading{
+
+    .tour-heading {
         font-size: 30px;
     }
-    .tour-description{
+
+    .tour-description {
         padding: 40px;
     }
-    .tour-image{
+
+    .tour-image {
         display: flex;
         justify-content: center;
     }
-    .row1{
+
+    .row1 {
         flex-direction: column;
     }
-    .row1 > img{
+
+    .row1>img {
         width: auto;
     }
-    .row2{
+
+    .row2 {
         flex-direction: column;
     }
-    .row2 > .row2-1, .row2-2 , .row2-3{
+
+    .row2>.row2-1,
+    .row2-2,
+    .row2-3 {
         width: auto;
     }
-    .row2-1, .row2-2 , .row2-3{
+
+    .row2-1,
+    .row2-2,
+    .row2-3 {
         height: 350px;
     }
-    .row3{
+
+    .row3 {
         flex-direction: column;
     }
-    .row3-1, .row3-2{
+
+    .row3-1,
+    .row3-2 {
         width: auto;
 
     }
-    .row3-1, .row3-2{
+
+    .row3-1,
+    .row3-2 {
         height: 350px;
 
     }
-    .row1 > img{
+
+    .row1>img {
         margin-top: -4px;
     }
+
+    .box-container1 {
+        flex-direction: column;
+    }
+
+    .box1,
+    .box2,
+    .box-container2 {
+        width: 512px;
+
+    }
+
+    .discount-banner1,
+    .discount-banner2 {
+        height: 560px;
+    }
+
+    .discount-box1,
+    .discount-box2 {
+        width: 455px;
+        height: 310px;
+        position: relative;
+        left: 8px;
+        top: 75px;
+
+    }
+
+    .video {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .main-main-video{
+        height: 325px;
+    }
+
 
 }
